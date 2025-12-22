@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    ​
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to DG Theme!"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+    ​
+    <EditText
+        android:id="@+id/edit_text_wakeup_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your wake-up word (e.g., 'change')"/>
+    <EditText
+        android:id="@+id/edit_text_exit_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Enter your exit word (e.g., 'restore')"/>
+
+    ​
+    <Button
+        android:id="@+id/button_save_words"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Save Words"/>
+    ​
+    <Button
+        android:id="@+id/button_select_wallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select Wallpaper"/>
+    ​
+    <Button
+        android:id="@+id/button_accessibility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="1. Grant Accessibility Permission"/>
+    ​
+    <Button
+        android:id="@+id/button_overlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="2. Grant Overlay Permission"/>
+    ​
+    <Button
+        android:id="@+id/button_start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:enabled="false"
+        android:text="3. Start Voice Service"/>
+    ​
+
+</LinearLayout>
